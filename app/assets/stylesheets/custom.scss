@@ -3,7 +3,7 @@
 body 
 {
   padding-top: 60px;
-  background-color: #350404
+  background-color: #ebafaf
 }
 .card {
   background-color: rgb(8, 23, 240);
@@ -70,3 +70,26 @@ p
   text-decoration: none;
 }
 
+footer {
+margin-top: 45px;
+padding-top: 5px;
+border-top: 1px solid #0c0000;
+color: #777;
+}
+footer a {
+color: #555;
+}
+footer a:hover {
+color: #222;
+}
+footer small {
+float: left;
+}
+footer ul {
+float: right;
+list-style: none;
+}
+footer ul li {
+float: left;
+margin-left: 15px;
+}
