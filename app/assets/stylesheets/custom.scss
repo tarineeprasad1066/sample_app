@@ -3,7 +3,7 @@
 body 
 {
   padding-top: 60px;
-  background-color: #ebafaf
+  background-color: #737373
 }
 .card {
   background-color: rgb(8, 23, 240);
@@ -20,6 +20,17 @@ textarea
 {
   text-align: center;
 }
+.navbar-inverse {
+    background-color: #737373;
+    border-color: rgb(5, 5, 5);
+}
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #6B21A8;
+}
 .center h1 
 {
   margin-bottom: 10px;
@@ -30,13 +41,16 @@ h1, h2, h3, h4, h5, h6
 {
    line-height: 1;
 }
+body {
+    color: #fdfcfc;
+}
 h1 
 {
    font-size: 3em;
    letter-spacing: -2px;
    margin-bottom: 30px;
    text-align: center;
-   border:2px solid DodgerBlue;
+   border:2px solid rgb(74, 247, 6);
 }
 h2 
 {
@@ -45,7 +59,7 @@ h2
    margin-bottom: 30px;
    text-align: center;
    font-weight: normal;
-   color: rgb(250, 127, 12);
+   color: #fdfcfc;
 }
 p 
 {
@@ -58,15 +72,15 @@ p
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: rgb(252, 8, 89);
-  text-transform: uppercase;
+  color: #5EEAD4;
+  text-transform: none;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
 }
 #logo:hover 
 {
-  color: rgb(151, 165, 159);
+  color: rgb(247, 187, 173);
   text-decoration: none;
 }
 
