@@ -25,5 +25,12 @@ test "should get about" do
      assert_response :success
      assert_select "title", "About | Ruby on Rails Tutorial
 MicroBlogging App"
-  end
+end
+
+  test "should get contact" do
+       get static_pages_contact_url
+       assert_response :success
+       assert_select "title", "Contact | Ruby on Rails Tutorial
+MicroBlogging App"
+end
 end
