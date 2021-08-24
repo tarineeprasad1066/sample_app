@@ -37,4 +37,17 @@ test "email should not be too long" do
    assert @user.valid?, "#{valid_address.inspect} should be valid"
   end
  end
+
+ test "email addresses should be unique" do
+   duplicate_user = @user.dup
+   @user.save
+   assert_not duplicate_user.valid?
+ end
+
+ test "email addresses should be saved as lowercase" do
+   mixed_case_email = "Foo@ExAMPle.CoM"
+   @user.email = mixed_case_email
+   @user.save
+   assert_equal mixed_case_email.downcase, @user.reload.email
+ end
 end
