@@ -37,7 +37,6 @@ textarea
     background-color: #6B21A8;
 }
 
-
 h1, h2, h3, h4, h5, h6 
 {
    line-height: 1;
@@ -110,4 +109,12 @@ float: left;
 margin-left: 15px;
 }
 }
+}
+.debug_dump {
+clear: both;
+float: left;
+margin-top:45px;
+-moz-box-sizing:    border-box;
+-webkit-box-sizing: border-box;
+box-sizing:         border-box;
 }
